@@ -2,6 +2,7 @@
 #bottombar {
     margin: 0;
     padding: 50px 0px 50px 0px;
+    background-color: #f2f9fc;
 }
 
 #bottombar section {
@@ -42,6 +43,7 @@ textarea {
     border: 0;
     border-bottom: 1px solid black;
     margin-bottom: 15px;
+    background-color: transparent;
 }
 
 .support_section form label {
