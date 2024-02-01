@@ -1,0 +1,58 @@
+/* footer styles */
+#bottombar {
+    margin: 0;
+    padding: 50px 0px 50px 0px;
+}
+
+#bottombar section {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+#bottombar a {
+    text-decoration: none;
+    color: black;
+}
+
+#bottombar .support_section {
+    padding: 0;
+    padding-left: 150px;
+}
+
+#bottombar li {
+    display: inline-block;
+    width: 40px;
+}
+
+.bottom_utility {
+    padding: 0;
+}
+
+.bottom_utility i:hover {
+    color: #4fa0d2 !important;
+}
+
+.contact_section {
+    padding-left: 149px;
+}
+
+.support_section form input,
+textarea {
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.support_section form label {
+    padding-top: 10px;
+}
+
+.pm-0 {
+    padding: 0;
+    margin: 0;
+}
+
+.fc-gray {
+    color: gray;
+}
