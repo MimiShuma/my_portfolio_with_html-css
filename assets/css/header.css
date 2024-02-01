@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+#navbar .logo {
+    width: 15%;
+}
+
+.logo a {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#navbar {
+    background-color: #f4f2f2;
+    height: 110px;
+    padding: 0px 50px 0px;
+}
+
+#navbar .utility a {
+    text-decoration: none;
+    color: #d5a803;
+    padding: 25px 25px 25px 25px;
+}
+
+#navbar li:hover {
+    background-color: rgba(222, 174, 1, 0.1);
+}
+
+#navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#navbar .logo,
+.utility {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#navbar ul {
+    width: 84%;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+/* footer styles */
+#bottombar {
+    margin: 0;
+    padding: 0px 0px 50px 0px;
+}
+
+#bottombar section {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+#bottombar a {
+    text-decoration: none;
+    color: black;
+}
+
+#bottombar .support_section {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+#bottombar li {
+    display: inline-block;
+    width: 40px;
+}
+
+.bottom_utility {
+    padding: 0;
+}
+
+.bottom_utility i:hover {
+    color: black !important;
+}
+
+.contact_section {
+    padding-left: 199px;
+}
+
+.support_section form input,
+textarea {
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.support_section form label {
+    padding-top: 10px;
+}
+
+.pm-0 {
+    padding: 0;
+    margin: 0;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fc-gray {
+    color: gray;
+}
