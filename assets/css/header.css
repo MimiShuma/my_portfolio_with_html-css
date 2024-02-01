@@ -7,6 +7,8 @@ body {
 /* header styles */
 #navbar .logo {
     width: 15%;
+    margin: 0;
+    padding: 0;
 }
 
 .logo a {
@@ -15,19 +17,20 @@ body {
 }
 
 #navbar {
-    background-color: #f4f2f2;
-    height: 110px;
+    background-color: #cee7f7;
+    /*#4fa0d2*/
+    height: 115px;
     padding: 0px 50px 0px;
 }
 
 #navbar .utility a {
     text-decoration: none;
-    color: #d5a803;
+    color: #ac57a1;
     padding: 25px 25px 25px 25px;
 }
 
 #navbar li:hover {
-    background-color: rgba(222, 174, 1, 0.1);
+    background-color: rgba(172, 87, 161, 0.3);
 }
 
 #navbar a:hover {
@@ -87,7 +90,7 @@ body {
 }
 
 .bottom_utility i:hover {
-    color: black !important;
+    color: #4fa0d2 !important;
 }
 
 .contact_section {
@@ -108,10 +111,6 @@ textarea {
 .pm-0 {
     padding: 0;
     margin: 0;
-}
-
-.fs-30 {
-    font-size: 30px;
 }
 
 .fc-gray {
