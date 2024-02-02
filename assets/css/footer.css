@@ -75,6 +75,10 @@ textarea {
     color: gray;
 }
 
+.pl-1000 {
+    padding-left: 1000px !important;
+}
+
 .btn {
     border: none !important;
     border-radius: 5px !important;
