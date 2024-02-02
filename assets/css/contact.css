@@ -1,27 +1,27 @@
-/* footer styles */
-#bottombar {
+/* main body styles */
+#contact_us {
     margin: 0;
-    padding: 50px 0px 50px 0px;
-    background-color: #f2f9fc;
+    padding: 92px 0px 92px 0px;
+    background-color: white;
 }
 
-#bottombar section {
+#contact_us section {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 40%;
 }
 
-#bottombar a {
+#contact_us a {
     text-decoration: none;
     color: black;
 }
 
-#bottombar .support_section {
+#contact_us .support_section {
     padding: 0;
     padding-left: 150px;
 }
 
-#bottombar li {
+#contact_us li {
     display: inline-block;
     width: 40px;
 }
@@ -86,4 +86,18 @@ textarea {
 
 .btn:hover {
     background-color: #ffb300 !important;
+}
+
+/* footer style */
+#bottombar {
+    background-color: #f2f9fc;
+    width: 100%;
+    text-align: right;
+}
+
+#bottombar span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 30px;
+    padding-left: 30px;
 }
