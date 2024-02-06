@@ -4,6 +4,11 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* header styles */
 #navbar .logo {
     width: 15%;
