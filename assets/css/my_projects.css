@@ -1,6 +1,7 @@
 #container {
     margin: 0;
     padding: 50px;
+    padding-top: 115px;
     display: flex;
     flex-wrap: wrap;
 }

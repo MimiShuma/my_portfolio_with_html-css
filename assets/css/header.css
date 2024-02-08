@@ -10,6 +10,12 @@ a {
 }
 
 /* header styles */
+#topbar {
+    position: fixed;
+    width: 1536px;
+    z-index: 1000;
+}
+
 #navbar .logo {
     width: 15%;
     margin: 0;
