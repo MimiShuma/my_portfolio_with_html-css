@@ -21,10 +21,17 @@ a {
     margin: 0 !important;
 }
 
+.logo a img {
+    height: 90px;
+    vertical-align: middle;
+}
+
 #navbar {
     background-color: #dcedf7;
-    height: 115px;
-    padding: 0px 50px 0px;
+    height: 100px;
+    padding: 10px 50px 0px;
+    vertical-align: middle;
+    /* line-height: 60px; */
 }
 
 #navbar .utility a {
