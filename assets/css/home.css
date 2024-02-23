@@ -79,3 +79,33 @@
     padding-left: 100px;
     margin: 0;
 }
+
+/* reviews section */
+#homepage_reviews {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#homepage_reviews h1 {
+    padding-left: 160px;
+}
+
+#homepage_reviews .review_cards_container {
+    /* padding-left: 135px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review_cards {
+    width: 290px;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.review_cards p {
+    font-size: 10px;
+    text-align: justify;
+}
